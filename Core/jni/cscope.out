@@ -1,0 +1,114 @@
+cscope 15 $HOME/workspace/player/Core/jni -q 0000000015 0000000684
+	@NativePlayer.cpp
+
+1 
+	~<ªdroid/log.h
+>
+
+3 #ifdeà
+JNI_VERSION_1_4
+
+
+4 
+	#JNI_VER
+ 
+JNI_VERSION_1_4
+
+
+	)
+
+7 #ifdeà
+JNI_VERSION_1_5
+
+
+8 #undeà
+JNI_VER
+
+
+9 
+	#JNI_VER
+ 
+JNI_VERSION_1_5
+
+
+	)
+
+11 #ifdeà
+JNI_VERSION_1_6
+
+
+12 #undeà
+JNI_VER
+
+
+13 
+	#JNI_VER
+ 
+JNI_VERSION_1_6
+
+
+	)
+
+16 cÚ¡ 
+ušt8_t
+ *
+	gLOG_TAG
+ = "PlayerCore";
+
+18 
+jšt
+ 
+	$JNI_OnLßd
+(
+JavaVM
+ *
+vm
+, *
+»£rved
+)
+
+20 
+	`__ªdroid_log_´št
+(
+ANDROID_LOG_INFO
+, 
+LOG_TAG
+, "JNI OnLoad ok." );
+
+21  
+JNI_VER
+;
+
+22 
+	}
+}
+
+24 
+	$JNI_UnLßd
+(
+JavaVM
+ *
+vm
+, *
+»£rved
+)
+
+26 
+	`__ªdroid_log_´št
+(
+ANDROID_LOG_INFO
+, 
+LOG_TAG
+, "JNI UnLoadƒrr." );
+
+28 
+	}
+}
+
+	@
+1
+.
+0
+1
+17
+NativePlayer.cpp

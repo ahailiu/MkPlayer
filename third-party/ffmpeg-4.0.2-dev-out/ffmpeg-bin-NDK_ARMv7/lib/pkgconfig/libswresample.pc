@@ -1,0 +1,14 @@
+prefix=/home/ahailiu/workspace/player/ffmpeg-4.0.2/../ffmpeg-4.0.2-dev-out/ffmpeg-bin-NDK_ARMv7
+exec_prefix=${prefix}
+libdir=/home/ahailiu/workspace/player/ffmpeg-4.0.2/../ffmpeg-4.0.2-dev-out/ffmpeg-bin-NDK_ARMv7/lib
+includedir=/home/ahailiu/workspace/player/ffmpeg-4.0.2/../ffmpeg-4.0.2-dev-out/ffmpeg-bin-NDK_ARMv7/include
+
+Name: libswresample
+Description: FFmpeg audio resampling library
+Version: 3.1.100
+Requires: libavutil >= 56.14.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lswresample -lm
+Libs.private: 
+Cflags: -I${includedir}

@@ -1,0 +1,19 @@
+libavcodec/srtdec.o: src/libavcodec/srtdec.c src/libavutil/avstring.h \
+ src/libavutil/attributes.h src/libavutil/common.h src/libavutil/macros.h \
+ src/libavutil/version.h libavutil/avconfig.h config.h \
+ src/libavutil/intmath.h src/libavutil/arm/intmath.h \
+ src/libavutil/attributes.h src/libavutil/common.h src/libavutil/mem.h \
+ src/libavutil/error.h src/libavutil/avutil.h src/libavutil/rational.h \
+ src/libavutil/mathematics.h src/libavutil/intfloat.h src/libavutil/log.h \
+ src/libavutil/pixfmt.h src/libavutil/internal.h src/libavutil/timer.h \
+ src/libavutil/arm/timer.h src/libavutil/cpu.h src/libavutil/dict.h \
+ src/libavutil/libm.h src/libavutil/intreadwrite.h src/libavutil/bswap.h \
+ src/libavutil/arm/bswap.h src/libavutil/arm/intreadwrite.h \
+ src/libavutil/parseutils.h src/libavcodec/avcodec.h \
+ src/libavutil/samplefmt.h src/libavutil/avutil.h src/libavutil/buffer.h \
+ src/libavutil/cpu.h src/libavutil/channel_layout.h src/libavutil/dict.h \
+ src/libavutil/frame.h src/libavutil/buffer.h src/libavutil/samplefmt.h \
+ src/libavutil/hwcontext.h src/libavutil/frame.h src/libavutil/log.h \
+ src/libavutil/pixfmt.h src/libavutil/rational.h src/libavcodec/version.h \
+ src/libavutil/version.h src/libavcodec/ass.h src/libavutil/bprint.h \
+ src/libavutil/avstring.h src/libavcodec/htmlsubtitles.h

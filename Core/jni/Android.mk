@@ -74,7 +74,9 @@ ifeq ($(TARGET_ARCH), arm)
 endif
 
 LOCAL_SRC_FILES := \
-	NativePlayer.cpp
+	JniMgr.cpp \
+	JniUtil.cpp \
+	MediaPlayer.cpp
 	
 LOCAL_C_INCLUDES := \
 	$(JNI_H_INCLUDE)						    \
